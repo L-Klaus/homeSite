@@ -1,0 +1,106 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #f1ffd8;
+}
+
+h1 {
+	background-color: #4b5b2f;
+	color: white;
+	margin: 0px;
+	padding: 10px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 45px;
+}
+
+.nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: #fdffd8;
+	text-decoration: none;
+
+}
+
+.nav li {
+ 	display: inline;
+	text-decoration: none;
+	color: black;
+	padding: 8px;
+	text-decoration: none;
+	font-family: 'Amatic SC', Sans-Serif; 
+	font-size: 30px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #888;
+
+}
+
+.nav a {
+	text-decoration: none;
+	color: black;
+}
+
+.nav li a:hover {
+	background-color: #ffead8;
+	transition: .3s background-color;
+}
+
+
+.footer {
+	background-color: #cc4312;
+}
+
+.header {
+	background-color: #cc4312;
+	height: 10px;
+}
+
+p.intro1 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 75px;
+}
+
+p.intro2 {
+	float: left;
+	font-family: 'Amatic SC', Sans-Serif;
+}
+
+img#profile {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 150px;
+	float: right;
+}
+
+img#profile:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+@media screen and (min-width: 600px) {
+	.nav li {
+		width: 120px;
+		border-bottom: none;
+		height: 50px;
+		line-height: 50px;
+		font-size: 1.4em;
+	}
+}
+
+/* fonts 
+
+
+    font-family: 'Amatic SC', Sans-Serif;  paragraphs
+
+    font-family: 'Satisfy', cursive;   name 
+
+    font-family: 'Kalam', Sans-Serif;  paragraph headings 
+
+
+
+    font-family: 'Amatic SC', cursive;
+
+    font-family: 'Sacramento', cursive;
+*/
