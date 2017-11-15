@@ -10,7 +10,7 @@ h1 {
 	margin: 0px;
 	padding: 10px;
 	font-family: 'Amatic SC', cursive;
-	font-size: 45px;
+	font-size: 40px;
 }
 
 .nav ul {
@@ -24,7 +24,7 @@ h1 {
 }
 
 .nav li {
- 	display: inline;
+ 	display: inline-block;
 	text-decoration: none;
 	color: black;
 	padding: 8px;
@@ -47,32 +47,47 @@ h1 {
 	transition: .3s background-color;
 }
 
-
-.footer {
-	background-color: #cc4312;
-}
-
 .header {
 	background-color: #cc4312;
 	height: 10px;
+	margin: 0;
+	padding: 0;
+	border: 5px;
+	z-index: -1;
 }
+
+.footer {
+	background-color: #cc4312;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+
+}
+
 
 p.intro1 {
 	font-family: 'Amatic SC', cursive;
-	font-size: 75px;
+	font-size: 60px;
 }
 
 p.intro2 {
-	float: left;
+	position: left;
 	font-family: 'Amatic SC', Sans-Serif;
+	font-size: 40px;
 }
+
+/* FIX SHADOW OF BOX */
 
 img#profile {
 	border: 1px solid #ddd;
 	border-radius: 4px;
 	padding: 5px;
-	width: 150px;
+	width: 300px;
+	padding-right: 20px;
+	padding-top: 100px;
 	float: right;
+	z-index: 1;
 }
 
 img#profile:hover {
