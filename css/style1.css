@@ -1,0 +1,171 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #f1ffd8;
+	height: 100%;
+	min-height: 100%;
+}
+
+#container {
+
+	position: relative;
+	height: 100%;
+}
+
+#heading {}
+
+#body {
+	padding: 5px;
+	padding-bottom: 60px; /*footer height */
+}
+
+h1 {
+	background-color: #4b5b2f;
+	color: white;
+	margin: 0px;
+	padding: 10px;
+	border: 0;
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+}
+
+.nav ul {
+	list-style: none;
+	width: 100%
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-align: center;
+	background-color: #fdffd8;
+}
+
+.nav li {
+ 	display: inline-block;
+	text-decoration: none;
+	color: black;
+	margin: 20px;
+	padding: 0;
+	border: 0;
+	text-decoration: none;
+	font-family: 'Amatic SC', Sans-Serif; 
+	font-size: 40px;
+	height: 40px;
+}
+
+li {
+	max-width: 70px;
+	text-decoration: none;
+}
+
+#long {
+	padding-right: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav a {
+	text-decoration: none;
+	color: black;
+}
+
+.nav li a:hover {
+	background-color: #ffead8;
+	transition: .3s background-color;
+}
+
+/*
+@media screen and (min-width: 600px) {
+	.nav li {
+		width: 120px;
+		padding: 10px;
+		border-bottom: none;
+		height: 50px;
+		line-height: 50px;
+		font-size: 1.4em;
+	}
+}
+  
+*/
+
+.divider {
+	background-color: #cc4312;
+	height: 7px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	z-index: -1;
+}
+
+.footer {
+	position: absolute;
+	display: inline;
+	background-color: #cc4312;
+	bottom: 0;
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+	padding: 0 0 0 10px;
+	width: 100%;
+	height: 60px;
+	margin: 0;
+	border: 0;
+
+}
+
+
+p.intro1 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 60px;
+	margin: 25px 0 0 50px;
+	padding: 0;
+	text-shadow: 0.1em 0.1em 0.2em black;
+	color: black;
+}
+
+p.intro2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 35px;
+	margin: 40px 60px 60px 50px;
+	padding: 0;
+}
+
+p.intro3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+	margin: 0 0 10px 50px;
+	padding: 0;
+}
+
+img#profile {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 300px;
+	margin: 20px 40px 20px 20px;
+	float: right;
+	z-index: 1;
+}
+
+img#profile:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	
+}
+
+body#home a#homenav,
+body#blog a#blognav,
+body#folio a#folionav,
+body#contact a#connav,
+body#games a#gamenav {
+	font-weight: bold;
+	color: #fff;
+	background: #ffcf89;
+}
+
+/* fonts 
+
+    font-family: 'Amatic SC', cursive;
+
+    font-family: 'Open Sans Condensed', sans-serif;
+
+*/
